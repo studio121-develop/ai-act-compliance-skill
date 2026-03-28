@@ -165,7 +165,7 @@ A "serious incident" is an incident that directly or indirectly leads to any of 
 
 ### Practical Guidance
 
-Most SaaS incidents are NOT Art. 73 serious incidents — but document everything anyway.
+Most AI product incidents are NOT Art. 73 serious incidents — but document everything anyway.
 
 Your chatbot hallucinating a fake restaurant recommendation is not a serious incident.
 Your chatbot systematically providing dangerous medical advice that leads to

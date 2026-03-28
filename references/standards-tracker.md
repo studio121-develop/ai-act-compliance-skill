@@ -121,7 +121,7 @@ metrics and known limitations. Intended purpose specification. Human oversight
 instructions.
 
 **What to do now**: Write clear deployer documentation. If you are both provider and
-deployer (common in SaaS), document for your own operational teams.
+deployer (common in B2B software), document for your own operational teams.
 
 ### Human Oversight (Art. 14)
 

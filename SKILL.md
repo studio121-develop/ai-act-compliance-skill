@@ -54,8 +54,8 @@ If any apply → STOP. The practice is banned since Feb 2, 2025.
 ### Step 2: Check High-Risk (Annex III)
 Does your AI system operate in any of these domains?
 
-1. **Biometrics** — remote biometric identification, emotion recognition
-2. **Critical infrastructure** — energy, transport, water, gas, electricity management
+1. **Biometrics** — remote biometric identification, emotion recognition (see also `references/sectors/healthtech.md`)
+2. **Critical infrastructure** — energy, transport, water, gas, electricity management, healthcare systems
 3. **Education** — exam scoring, admission decisions, learning assessment (see `references/sectors/edtech.md`)
 4. **Employment** — recruitment, CV screening, performance evaluation, promotion/termination (see `references/sectors/hrtech.md`)
 5. **Essential services** — creditworthiness, insurance pricing, emergency dispatch, social benefits (see `references/sectors/fintech.md`)
