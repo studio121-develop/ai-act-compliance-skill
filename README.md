@@ -1,6 +1,6 @@
 # AI Act Compliance Skill for Claude Code
 
-> The first skill for Claude Code (and compatible AI agents) that actually makes EU AI Act compliance... not terrible.
+> A skill for Claude Code (and compatible AI agents) that makes EU AI Act compliance... not terrible.
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Agent Skills Standard](https://img.shields.io/badge/Agent_Skills-SKILL.md-purple.svg)](https://agentskills.io)

@@ -1,4 +1,8 @@
+<!-- Last verified against EUR-Lex: 2026-03-28 -->
+
 # Netherlands :nl: — AI Act National Context
+
+> **Disclaimer**: This document provides general guidance — not legal advice. See [LEGAL_NOTICE.md](/LEGAL_NOTICE.md) for full terms.
 
 The Netherlands brings a characteristically Dutch approach to AI regulation: pragmatic, business-friendly, and occasionally ahead of the curve in ways that don't involve much fanfare. While France makes grand strategic announcements and Germany builds institutional architectures, the Dutch tend to just get on with it. The Algorithm Register — a public transparency tool for government AI use — is a perfect example: launched without much ceremony, it has become one of the most cited best practices in European AI governance.
 

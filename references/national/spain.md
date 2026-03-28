@@ -1,4 +1,8 @@
+<!-- Last verified against EUR-Lex: 2026-03-28 -->
+
 # Spain :es: — AI Act National Context
+
+> **Disclaimer**: This document provides general guidance — not legal advice. See [LEGAL_NOTICE.md](/LEGAL_NOTICE.md) for full terms.
 
 Spain holds a genuinely notable distinction in the AI Act story: it was the first EU country to launch a regulatory sandbox for artificial intelligence, in November 2022 — before the AI Act was even finalised. While other Member States were still debating the regulation's text in Council working groups, Spain was already testing what compliance might look like in practice. This head start gives Spain a unique perspective and a body of practical experience that other countries are now scrambling to replicate.
 

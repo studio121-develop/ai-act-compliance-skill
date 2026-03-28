@@ -1,4 +1,8 @@
+<!-- Last verified against EUR-Lex: 2026-03-28 -->
+
 # Technical Documentation Template (Annex IV)
+
+> **Disclaimer**: This document provides general guidance — not legal advice. See [LEGAL_NOTICE.md](/LEGAL_NOTICE.md) for full terms.
 
 This is the full technical documentation template required for **high-risk AI systems**
 under Annex IV of the AI Act (Regulation (EU) 2024/1689). Every high-risk AI system must

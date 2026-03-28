@@ -1,4 +1,8 @@
+<!-- Last verified against EUR-Lex: 2026-03-28 -->
+
 # France :fr: — AI Act National Context
+
+> **Disclaimer**: This document provides general guidance — not legal advice. See [LEGAL_NOTICE.md](/LEGAL_NOTICE.md) for full terms.
 
 France approaches AI regulation the way it approaches most things: with strategic ambition, institutional sophistication, and the quiet conviction that whatever the rest of Europe does, France should probably lead it. The country has positioned itself as both a champion of AI innovation (Mistral AI, anyone?) and a pioneer in digital rights enforcement — a tension that makes its AI Act implementation particularly interesting to watch.
 

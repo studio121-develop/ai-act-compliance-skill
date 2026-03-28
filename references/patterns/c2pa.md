@@ -1,3 +1,5 @@
+<!-- Last verified against EUR-Lex: 2026-03-28 -->
+
 # C2PA — Content Provenance for the AI Act
 
 ## What Is C2PA and Why Should You Care?

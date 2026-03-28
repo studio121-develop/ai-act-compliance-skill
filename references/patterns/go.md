@@ -1,3 +1,5 @@
+<!-- Last verified against EUR-Lex: 2026-03-28 -->
+
 # Go — Compliance at the Speed of... Go
 
 Go's standard library already has everything you need for HTTP middleware — no npm install,

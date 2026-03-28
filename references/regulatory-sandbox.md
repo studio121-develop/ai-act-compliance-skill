@@ -1,4 +1,8 @@
+<!-- Last verified against EUR-Lex: 2026-03-28 -->
+
 # Regulatory Sandboxes (Arts. 57-62)
+
+> **Disclaimer**: This document provides general guidance — not legal advice. See [LEGAL_NOTICE.md](/LEGAL_NOTICE.md) for full terms.
 
 Regulatory sandboxes are controlled environments set up by national competent authorities
 where you can develop, train, validate, and test AI systems under regulatory supervision

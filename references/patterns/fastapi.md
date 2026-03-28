@@ -1,3 +1,5 @@
+<!-- Last verified against EUR-Lex: 2026-03-28 -->
+
 # FastAPI — Because Your AI API Should Also Be Compliant
 
 FastAPI already generates your docs, validates your inputs, and makes you look good in code

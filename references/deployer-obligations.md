@@ -1,4 +1,8 @@
+<!-- Last verified against EUR-Lex: 2026-03-28 -->
+
 # Deployer Obligations & Fundamental Rights Impact Assessment
+
+> **Disclaimer**: This document provides general guidance — not legal advice. See [LEGAL_NOTICE.md](/LEGAL_NOTICE.md) for full terms.
 
 If you are a B2B SaaS provider, your customers are almost certainly "deployers" under the
 AI Act. That means they have their own legal obligations — and they will look to you to

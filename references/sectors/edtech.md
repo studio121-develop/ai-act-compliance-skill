@@ -1,4 +1,8 @@
+<!-- Last verified against EUR-Lex: 2026-03-28 -->
+
 # Edtech — Teaching AI About the Rules (Ironic, Isn't It)
+
+> **Disclaimer**: This document provides general guidance — not legal advice. See [LEGAL_NOTICE.md](/LEGAL_NOTICE.md) for full terms.
 
 You built an AI that grades student essays. Or decides who gets into university. Or monitors students during exams via webcam. The AI Act has opinions about all of this. Strong opinions. And because many of your users are children, so does the GDPR, the UN Convention on the Rights of the Child, and probably a few national education ministries whose regulations you have not read yet.
 

@@ -1,4 +1,8 @@
+<!-- Last verified against EUR-Lex: 2026-03-28 -->
+
 # Conformity Assessment Walkthrough
+
+> **Disclaimer**: This document provides general guidance — not legal advice. See [LEGAL_NOTICE.md](/LEGAL_NOTICE.md) for full terms.
 
 The conformity assessment is where all your compliance work gets validated. It is the
 formal process by which you (or a notified body) verify that your high-risk AI system

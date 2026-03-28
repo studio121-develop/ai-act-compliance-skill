@@ -1,4 +1,8 @@
+<!-- Last verified against EUR-Lex: 2026-03-28 -->
+
 # High-Risk AI System Requirements (Arts. 9-15, 16-17)
+
+> **Disclaimer**: This document provides general guidance — not legal advice. See [LEGAL_NOTICE.md](/LEGAL_NOTICE.md) for full terms.
 
 This reference covers the full set of obligations for providers of high-risk AI systems under the EU AI Act. Most SaaS products built with AI APIs won't fall here, but review this if your system operates in any Annex III domain.
 

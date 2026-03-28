@@ -1,4 +1,8 @@
+<!-- Last verified against EUR-Lex: 2026-03-28 -->
+
 # HR-tech — Hiring, Firing, and Everything In Between
+
+> **Disclaimer**: This document provides general guidance — not legal advice. See [LEGAL_NOTICE.md](/LEGAL_NOTICE.md) for full terms.
 
 Your AI just screened 10,000 CVs in 30 seconds. Impressive. It also just potentially discriminated against 10,000 people in 30 seconds. The AI Act would like a word.
 

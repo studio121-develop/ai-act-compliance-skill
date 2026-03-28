@@ -1,3 +1,5 @@
+<!-- Last verified against EUR-Lex: 2026-03-28 -->
+
 # Keeping This Skill Current
 
 The EU AI Act is a living regulation. Implementing acts, delegated acts, harmonized standards, codes of practice, and national implementation laws are being developed continuously. A compliance skill that doesn't keep up is worse than no skill at all — it gives you false confidence.

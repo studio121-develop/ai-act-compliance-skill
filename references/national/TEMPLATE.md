@@ -1,3 +1,5 @@
+<!-- Last verified against EUR-Lex: 2026-03-28 -->
+
 # [Country Name] [Flag Emoji] — AI Act National Context
 
 <!--

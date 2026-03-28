@@ -1,4 +1,8 @@
+<!-- Last verified against EUR-Lex: 2026-03-28 -->
+
 # Healthtech — Where AI Act Meets Medical Device Regulation
+
+> **Disclaimer**: This document provides general guidance — not legal advice. See [LEGAL_NOTICE.md](/LEGAL_NOTICE.md) for full terms.
 
 You thought complying with one EU regulation was hard. In healthtech, your AI might need to satisfy the AI Act, the Medical Device Regulation, the IVDR, GDPR special category rules, and possibly national healthcare legislation — all at the same time. For the same system.
 

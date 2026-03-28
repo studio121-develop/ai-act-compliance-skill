@@ -1,3 +1,5 @@
+<!-- Last verified against EUR-Lex: 2026-03-28 -->
+
 # Legaltech — AI That Reads the Law (About AI)
 
 There is a certain poetry in building an AI system that helps lawyers understand the AI Act. A regulation about AI, interpreted by AI, applied to AI. We are through the looking glass.

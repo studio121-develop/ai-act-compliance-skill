@@ -1,3 +1,5 @@
+<!-- Last verified against EUR-Lex: 2026-03-28 -->
+
 # Testing — Because "Trust Me, It's Compliant" Won't Work in an Audit
 
 Compliance without tests is like a safety net without ropes — it looks good from a distance.

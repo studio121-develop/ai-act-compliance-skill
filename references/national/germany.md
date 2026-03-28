@@ -1,4 +1,8 @@
+<!-- Last verified against EUR-Lex: 2026-03-28 -->
+
 # Germany :de: — AI Act National Context
+
+> **Disclaimer**: This document provides general guidance — not legal advice. See [LEGAL_NOTICE.md](/LEGAL_NOTICE.md) for full terms.
 
 Germany brings to AI regulation what it brings to everything else: thoroughness, federalism, and an impressive number of acronyms. Navigating the AI Act here means understanding not just one national authority but a constellation of federal agencies, Länder-level considerations, and a deeply embedded data protection culture that predates the GDPR by decades.
 

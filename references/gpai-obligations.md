@@ -1,4 +1,8 @@
+<!-- Last verified against EUR-Lex: 2026-03-28 -->
+
 # GPAI Model Provider Obligations (Arts. 51-56)
+
+> **Disclaimer**: This document provides general guidance — not legal advice. See [LEGAL_NOTICE.md](/LEGAL_NOTICE.md) for full terms.
 
 General-Purpose AI (GPAI) models are the foundation models that power most modern AI
 applications — think Claude, GPT-4, Gemini, Llama, Mistral. The AI Act creates a

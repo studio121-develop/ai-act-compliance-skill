@@ -1,3 +1,5 @@
+<!-- Last verified against EUR-Lex: 2026-03-28 -->
+
 # CI/CD — Automate Your Compliance Checks
 
 Manual compliance checks are like manual deployments: they work until someone forgets.

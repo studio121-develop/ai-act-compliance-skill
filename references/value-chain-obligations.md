@@ -1,4 +1,8 @@
+<!-- Last verified against EUR-Lex: 2026-03-28 -->
+
 # Value Chain Responsibilities (Arts. 22-28)
+
+> **Disclaimer**: This document provides general guidance — not legal advice. See [LEGAL_NOTICE.md](/LEGAL_NOTICE.md) for full terms.
 
 The AI Act does not just regulate the entity that builds the AI system. It regulates
 every actor in the value chain, from the foundation model provider all the way to the

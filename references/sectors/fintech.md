@@ -1,4 +1,8 @@
+<!-- Last verified against EUR-Lex: 2026-03-28 -->
+
 # Fintech — When Your AI Starts Making Money Decisions
+
+> **Disclaimer**: This document provides general guidance — not legal advice. See [LEGAL_NOTICE.md](/LEGAL_NOTICE.md) for full terms.
 
 Your AI just denied someone a loan. Or priced their insurance at triple the average. Or flagged their account for fraud and froze it over the weekend. Welcome to the most scrutinized intersection of AI and regulation in the EU.
 

@@ -1,3 +1,5 @@
+<!-- Last verified against EUR-Lex: 2026-03-28 -->
+
 # .NET — Compliance for the Other Enterprise Framework
 
 If Spring Boot is the enterprise Java answer to AI Act compliance, ASP.NET Core is the

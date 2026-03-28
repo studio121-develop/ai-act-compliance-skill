@@ -1,3 +1,5 @@
+<!-- Last verified against EUR-Lex: 2026-03-28 -->
+
 # Spring Boot — Enterprise Compliance, Enterprise Framework
 
 If your company already has a Spring Boot monolith, congratulations: you now get to add

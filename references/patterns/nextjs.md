@@ -1,3 +1,5 @@
+<!-- Last verified against EUR-Lex: 2026-03-28 -->
+
 # Next.js — Compliance in the App Router Era
 
 You picked the React meta-framework that changes its routing model every 18 months.

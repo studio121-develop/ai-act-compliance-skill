@@ -1,3 +1,5 @@
+<!-- Last verified against EUR-Lex: 2026-03-28 -->
+
 # Django — Old Reliable Meets New Regulation
 
 Django has survived every web trend since 2005. It will survive the AI Act too.
