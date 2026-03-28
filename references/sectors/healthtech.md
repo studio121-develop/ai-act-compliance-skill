@@ -133,6 +133,15 @@ When processing health data with AI, a Data Protection Impact Assessment is mand
 
 The DPIA must be completed before you begin processing. Not after. Not "when we get around to it."
 
+## FRIA Considerations for Healthcare AI
+
+The Fundamental Rights Impact Assessment (Art. 27) for healthcare AI should focus on:
+
+1. **Right to health** (Charter Art. 35) — Does the AI improve or risk patient outcomes? What happens when it fails?
+2. **Right to non-discrimination** (Charter Art. 21) — Clinical AI trained on unrepresentative populations may perform worse for underrepresented groups. Dermatology AI trained mostly on light skin is a documented example.
+3. **Right to human dignity** (Charter Art. 1) — Fully automated triage or diagnosis decisions can reduce patients to data points.
+4. **Right to data protection** (Charter Art. 8) — Health data is the most sensitive category. Breaches cause irreversible harm.
+
 ## Practical Timeline
 
 1. **Immediate**: Classify under both MDR/IVDR and AI Act

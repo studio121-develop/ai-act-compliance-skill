@@ -137,6 +137,12 @@ A Fundamental Rights Impact Assessment is mandatory for high-risk financial AI (
 
 The moment your AI evaluates individual people to predict their financial behavior, you are profiling and high-risk. In fintech, the derogation covers a narrow category.
 
+## Timeline Considerations
+
+The AI Act's high-risk obligations applied from August 2, 2026 for new systems. Existing fintech AI systems already on the market need to demonstrate compliance at the next significant modification or when the transitional period ends. Financial regulators (ECB, national competent authorities) are expected to coordinate with AI Act market surveillance authorities, meaning you may face inquiries from both sides.
+
+If you are building a new credit scoring or insurance pricing system today: design for compliance from the start. Retrofitting explainability, audit logging, and bias monitoring into a production system is significantly more expensive than building it in. The architecture decisions you make now will determine whether compliance is a minor tax or a major rewrite.
+
 ## Practical Compliance Checklist
 
 - [ ] Classify every AI component against Annex III Category 5
