@@ -289,6 +289,70 @@ Run this checklist before every deployment of an AI-powered feature:
 
 For the full 219-point checklist by lifecycle phase, see `references/checklist.md`.
 
+## What You Need to Do: Code vs. Organization vs. Legal
+
+The AI Act is not just about code. Compliance spans three distinct areas. Here's what goes where.
+
+### In Your Codebase
+
+Things you implement as a developer:
+
+| What | Article | Example |
+|------|---------|---------|
+| AI disclosure UI | Art. 50(1) | Banner, modal, or chat header saying "this is AI" |
+| Content marking (machine-readable) | Art. 50(2) | Metadata tags, C2PA manifests, `X-AI-Generated` headers |
+| Content marking (visible) | Art. 50(2) | Label or footer on AI-generated content |
+| Deepfake disclosure | Art. 50(4) | Visible notice on synthetic media |
+| Human oversight / kill switch | Art. 14 | Feature flag or admin toggle to disable AI |
+| Compliance logging | Art. 12 | Audit trail of AI interactions (pseudonymized) |
+| Error handling & fallback | Art. 15 | Graceful degradation when AI API is down |
+| Data minimization | Art. 10 / GDPR | Filter sensitive data before sending to AI API |
+| Rate limiting & abuse prevention | Art. 15 | Throttle AI endpoints |
+| Prompt injection protection | Art. 15 | Input sanitization, output filtering |
+
+See `references/patterns/` for framework-specific code.
+
+### In Your Organization (Offline)
+
+Things you do as a team — no code involved:
+
+| What | Article | Who |
+|------|---------|-----|
+| AI literacy training | Art. 4 | All staff involved in AI — documented with dates |
+| Compliance officer designation | Art. 4 / best practice | Management |
+| AI system inventory | Art. 4 / best practice | Compliance officer |
+| Risk classification per feature | Art. 6 | Developer + compliance lead |
+| Quarterly compliance review | best practice | Team |
+| Incident response plan | Art. 73 | Operations |
+| Post-market monitoring | Art. 72 | Operations |
+| Cooperation with authorities | Art. 21 | Legal / management |
+
+### In Your Contracts & Legal Documents
+
+Things you need a lawyer (or at least a good template) for:
+
+| What | Article | Notes |
+|------|---------|-------|
+| Privacy policy AI addendum | GDPR + Art. 50 | Which data goes to the AI, why, how long |
+| Terms of service AI clause | Art. 50 / best practice | AI limitations, user responsibility, no professional advice |
+| DPA with AI provider | GDPR Art. 28 | Data Processing Agreement with Anthropic, OpenAI, etc. |
+| B2B deployer contracts | Art. 13, 26 | If you sell to businesses: what they must do as deployers |
+| EU Declaration of Conformity | Art. 47 | High-risk only |
+| Deployer instructions | Art. 13 | High-risk only — what your B2B customers need to operate |
+| FRIA | Art. 27 | Fundamental Rights Impact Assessment — high-risk deployers |
+
+See `references/national/italy.md` (or your country) for localized legal templates.
+
+### In the EU Database (High-Risk Only)
+
+| What | Article | When |
+|------|---------|------|
+| System registration | Art. 71 | Before placing on market |
+| CE marking | Art. 48 | After conformity assessment |
+| Update registration | Art. 71 | Within 14 days of significant changes |
+
+Most AI products using APIs (chatbots, content tools, search) are **limited risk** and only need the first three sections. High-risk adds the fourth.
+
 ## Common Scenarios
 
 ### Chatbot / Virtual Assistant
