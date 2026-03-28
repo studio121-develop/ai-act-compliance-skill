@@ -2,6 +2,8 @@
 
 # Incident Response Playbook — When AI Goes Wrong
 
+> **Disclaimer**: This document provides general guidance — not legal advice. See [LEGAL_NOTICE.md](/LEGAL_NOTICE.md) for full terms.
+
 > Your AI system will eventually produce an output that makes someone very unhappy.
 > The question is not *if* but *when*, and whether you'll have a plan or just panic.
 

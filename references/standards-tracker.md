@@ -2,6 +2,8 @@
 
 # Harmonized Standards Tracker — What's Coming and When
 
+> **Disclaimer**: This document provides general guidance — not legal advice. See [LEGAL_NOTICE.md](/LEGAL_NOTICE.md) for full terms.
+
 > Standards are the unsung heroes of regulation. Nobody reads them for fun,
 > but everyone benefits when they exist. Think of them as the cheat codes
 > for compliance — follow the standard, get the presumption of conformity. Nice deal.
