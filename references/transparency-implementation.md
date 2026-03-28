@@ -1,0 +1,245 @@
+# Transparency Implementation Guide (Art. 50)
+
+Technical guidance for implementing EU AI Act transparency obligations in SaaS products.
+
+## Art. 50(1) — AI Interaction Disclosure
+
+### What It Requires
+Users must be informed they are interacting with an AI system, unless it's obvious from the context.
+
+### Implementation Approaches
+
+#### Web/App UI — Visible Disclosure
+```html
+<!-- Option 1: Banner before first interaction -->
+<div class="ai-disclosure-banner" role="alert">
+  <svg><!-- AI icon --></svg>
+  <p>Questo assistente utilizza intelligenza artificiale. 
+     Le risposte sono generate automaticamente.</p>
+</div>
+
+<!-- Option 2: Persistent indicator in chat -->
+<div class="chat-header">
+  <span class="ai-badge">🤖 Assistente AI</span>
+  <span class="ai-subtitle">Powered by AI — non un operatore umano</span>
+</div>
+
+<!-- Option 3: First message disclosure -->
+<div class="ai-first-message">
+  Ciao! Sono un assistente basato su intelligenza artificiale. 
+  Posso aiutarti con [FUNZIONALITÀ]. Tieni presente che le mie 
+  risposte sono generate automaticamente e potrebbero non essere 
+  sempre precise.
+</div>
+```
+
+#### API Responses — Headers + Body
+```python
+# Always include in API responses
+HEADERS = {
+    'X-AI-Generated': 'true',
+    'X-AI-Provider': 'Anthropic Claude',
+    'X-AI-System': 'your-product-name',
+    'X-AI-Act-Compliance': 'Art.50(1)'
+}
+
+# Include in response body
+response_wrapper = {
+    "data": actual_response,
+    "ai_disclosure": {
+        "is_ai_generated": True,
+        "model": "claude-sonnet-4-20250514",
+        "provider": "Anthropic",
+        "system": "Your Product Name",
+        "disclaimer": "Contenuto generato tramite intelligenza artificiale."
+    }
+}
+```
+
+#### WhatsApp/Telegram Bots
+```python
+# First message in every new conversation
+WELCOME_MESSAGE = (
+    "👋 Ciao! Sono [NOME BOT], un assistente automatico "
+    "basato su intelligenza artificiale.\n\n"
+    "⚠️ Le mie risposte sono generate da un sistema AI "
+    "e potrebbero contenere imprecisioni.\n\n"
+    "Come posso aiutarti?"
+)
+
+# Periodic reminder (e.g., every 10 messages or every new session)
+REMINDER_MESSAGE = (
+    "ℹ️ Ricorda: stai comunicando con un assistente AI, "
+    "non con un operatore umano."
+)
+```
+
+### When Disclosure Is NOT Required
+- It's "obvious from the circumstances and context of use" that the user is interacting with AI
+- The system is authorized by law for crime detection/prevention
+- In practice, always disclose — "obvious" is a very narrow exception
+
+## Art. 50(2) — Synthetic Content Marking
+
+### What It Requires
+AI-generated content must be marked in a machine-readable format and be detectable as artificially generated.
+
+### Technical Implementation
+
+#### Text Content
+```python
+# Option 1: HTML metadata
+def mark_text_html(content, system_name):
+    metadata_tag = (
+        f'<meta name="ai:generated" content="true" />'
+        f'<meta name="ai:system" content="{system_name}" />'
+        f'<meta name="ai:provider" content="Anthropic Claude" />'
+        f'<meta name="ai:date" content="{datetime.utcnow().isoformat()}" />'
+        f'<meta name="ai:regulation" content="EU AI Act Art.50(2)" />'
+    )
+    return metadata_tag + content
+
+# Option 2: JSON-LD metadata (for web content)
+def generate_ai_jsonld(content_url, system_name):
+    return {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "url": content_url,
+        "creator": {
+            "@type": "SoftwareApplication",
+            "name": system_name,
+            "description": "AI-powered content generation system"
+        },
+        "isBasedOn": {
+            "@type": "SoftwareApplication",
+            "name": "Anthropic Claude",
+            "applicationCategory": "Large Language Model"
+        },
+        "dateCreated": datetime.utcnow().isoformat(),
+        "sdLicense": "AI-generated content under EU AI Act Art. 50(2)"
+    }
+
+# Option 3: C2PA-style metadata (for images/video)
+# Use the c2pa-python library for Coalition for Content Provenance and Authenticity
+def add_c2pa_manifest(file_path, system_name):
+    # Implementation depends on c2pa library
+    manifest = {
+        "claim_generator": system_name,
+        "assertions": [{
+            "label": "c2pa.ai_generated",
+            "data": {
+                "ai_tool": "Anthropic Claude API",
+                "is_ai_generated": True,
+                "regulation_compliance": "EU AI Act Art. 50(2)"
+            }
+        }]
+    }
+    return manifest
+```
+
+#### Database Storage Pattern
+```sql
+-- Add AI metadata columns to content tables
+ALTER TABLE generated_content ADD COLUMN ai_generated BOOLEAN DEFAULT FALSE;
+ALTER TABLE generated_content ADD COLUMN ai_model VARCHAR(100);
+ALTER TABLE generated_content ADD COLUMN ai_system VARCHAR(100);
+ALTER TABLE generated_content ADD COLUMN ai_generation_date TIMESTAMP;
+ALTER TABLE generated_content ADD COLUMN ai_human_edited BOOLEAN DEFAULT FALSE;
+ALTER TABLE generated_content ADD COLUMN ai_disclosure_shown BOOLEAN DEFAULT FALSE;
+
+-- Supabase/PostgreSQL with RLS
+CREATE POLICY "ai_content_must_be_marked"
+ON generated_content FOR INSERT
+WITH CHECK (
+    ai_generated IS NOT NULL AND
+    (ai_generated = FALSE OR (ai_model IS NOT NULL AND ai_system IS NOT NULL))
+);
+```
+
+#### React Component Pattern
+```tsx
+interface AIContentProps {
+  content: string;
+  isAIGenerated: boolean;
+  model?: string;
+  humanEdited?: boolean;
+}
+
+const AIContent: React.FC<AIContentProps> = ({ 
+  content, isAIGenerated, model, humanEdited 
+}) => {
+  return (
+    <div 
+      data-ai-generated={isAIGenerated}
+      data-ai-model={model}
+      data-ai-human-edited={humanEdited}
+    >
+      {content}
+      {isAIGenerated && (
+        <footer className="ai-content-footer">
+          <small>
+            ℹ️ Contenuto generato con l'ausilio dell'intelligenza artificiale
+            {humanEdited && " e successivamente rivisto da un operatore umano"}
+          </small>
+        </footer>
+      )}
+    </div>
+  );
+};
+```
+
+### Assistive Function Exception (Art. 50.2)
+Content marking is NOT required if the AI system:
+- Performs an "assistive function for standard editing"
+- Does NOT substantially alter the input data provided by the deployer
+- Does NOT alter the semantics of the input
+
+Examples: spell-checking, grammar correction, basic formatting.
+NOT exempt: content generation, summarization, translation, paraphrasing.
+
+## Art. 50(4) — Deepfakes and Public Interest Text
+
+### Deepfakes
+If your system generates or manipulates images/audio/video to resemble real people:
+- MUST disclose that content is artificially generated or manipulated
+- Exception: artistic, creative, satirical, fictional works — but still must disclose existence
+
+### AI-Generated Text for Public Interest
+If your system generates text that is published to inform the public:
+- MUST disclose that text was artificially generated or manipulated  
+- Exception: if human editorial oversight reviewed the content and a natural person or legal entity holds editorial responsibility
+
+## Logging Requirements for Compliance Audit Trail
+
+```python
+# Minimum logging for AI Act compliance
+import logging
+from datetime import datetime
+
+ai_compliance_logger = logging.getLogger('ai_act_compliance')
+
+def log_ai_interaction(user_id, system_name, interaction_type, 
+                       disclosure_shown, content_marked):
+    ai_compliance_logger.info({
+        "timestamp": datetime.utcnow().isoformat(),
+        "user_id": hash(user_id),  # Pseudonymized
+        "system": system_name,
+        "interaction_type": interaction_type,
+        "disclosure_shown": disclosure_shown,
+        "content_marked": content_marked,
+        "regulation": "EU AI Act Art. 50",
+        "compliance_version": "1.0"
+    })
+```
+
+## Code of Practice on Transparency (in development)
+
+The European Commission launched a Code of Practice on transparency in November 2025, expected to be finalized by late 2026. Key elements being defined:
+- Common taxonomy for AI-generated content classification
+- Standardized "AI" icon/label for visible disclosure
+- Technical standards for machine-readable marking
+- Interoperability requirements between marking systems
+
+Monitor progress at: https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai
+
+Until the Code is finalized, implement the patterns above as they align with the Act's intent and will be compatible with whatever final standard emerges.
