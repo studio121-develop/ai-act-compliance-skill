@@ -6,8 +6,8 @@
 
 The AI Act does not just regulate the entity that builds the AI system. It regulates
 every actor in the value chain, from the foundation model provider all the way to the
-organization deploying the system on real people. If you are building SaaS products that
-use AI, you sit somewhere in this chain — and so do your customers.
+organization deploying the system on real people. If you are building AI-powered products,
+you sit somewhere in this chain — and so do your customers.
 
 This document maps the chain, explains each actor's obligations, and gives you practical
 contract language and upstream demands.
@@ -22,7 +22,7 @@ one role simultaneously:
 | Role | Definition | Typical Example |
 |------|-----------|-----------------|
 | **GPAI model provider** | Develops or commissions a general-purpose AI model and places it on the market (Art. 3(66)) | Anthropic, OpenAI, Meta (for Llama) |
-| **AI system provider** | Develops or commissions an AI system and places it on the market or puts it into service under their own name (Art. 3(3)) | Your SaaS company wrapping an API into a product |
+| **AI system provider** | Develops or commissions an AI system and places it on the market or puts it into service under their own name (Art. 3(3)) | Your company wrapping an API into a product |
 | **Deployer** | Uses an AI system under their authority in a professional capacity (Art. 3(4)) | Your B2B customer running your product |
 | **Importer** | Places on the EU market an AI system from a non-EU provider (Art. 3(6)) | EU distributor reselling a US-built tool |
 | **Distributor** | Makes an AI system available on the EU market without being provider or importer (Art. 3(7)) | Marketplace or VAR |
@@ -97,7 +97,7 @@ EU authorized representative, that is a red flag for your compliance story.
 
 ---
 
-## Art. 26: Deployer Obligations (Critical for B2B SaaS)
+## Art. 26: Deployer Obligations (Critical for B2B Products)
 
 Your B2B customers are deployers. Art. 26 imposes direct obligations on them, which
 means they will demand things from you (the provider) to meet those obligations.

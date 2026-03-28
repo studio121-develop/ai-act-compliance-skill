@@ -10,7 +10,7 @@ separate regulatory tier for these models under Chapter V (Arts. 51-56), recogni
 that their providers sit at the top of the value chain and have outsized influence on
 downstream safety.
 
-If you are building SaaS on top of these models, you are almost certainly **not** a GPAI
+If you are building applications on top of these models, you are almost certainly **not** a GPAI
 model provider. But understanding these obligations is essential because (a) they
 determine what your upstream provider owes you, and (b) certain activities like
 fine-tuning can blur the line.
@@ -169,7 +169,7 @@ through other means.
 
 ## The Critical Question: When Does Fine-Tuning (or RAG, or Prompting) Make You a GPAI Model Provider?
 
-This is the question every SaaS builder asks. Here is the framework.
+This is the question every AI application builder asks. Here is the framework.
 
 ### Fine-tuning
 
@@ -227,7 +227,7 @@ system, even though you are not a GPAI model provider.
 
 ---
 
-## Most SaaS Builders Are NOT GPAI Model Providers
+## Most AI Application Builders Are NOT GPAI Model Providers
 
 If you are:
 - Calling Claude, GPT, or Gemini via API
@@ -272,7 +272,7 @@ weakens your own compliance posture and may expose you to regulatory scrutiny.
 
 1. **GPAI obligations are separate from AI system obligations.** Chapter V applies to
    model providers; Chapter III applies to system providers. Know which you are.
-2. **The 10^25 FLOP threshold** triggers systemic risk classification. Most SaaS
+2. **The 10^25 FLOP threshold** triggers systemic risk classification. Most application
    builders are nowhere near this.
 3. **Fine-tuning via API does not make you a GPAI provider.** But fine-tuning open
    weights and redistributing might.

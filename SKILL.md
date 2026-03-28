@@ -1,7 +1,7 @@
 ---
 name: ai-act-compliance
 description: |
-  EU AI Act compliance checker and documentation generator for SaaS products built with AI APIs (Claude, OpenAI, etc.) and vibe coding workflows. Use this skill whenever: building a new AI-powered feature or SaaS product, reviewing an existing codebase for AI Act compliance, generating compliance documentation (technical docs, transparency disclosures, risk assessments), adding a chatbot/AI assistant to any product, integrating AI APIs into user-facing applications, preparing for an AI Act audit, classifying AI system risk level, writing privacy policies or terms of service for AI products, deploying AI features to EU markets, or when the user mentions "AI Act", "compliance", "transparency", "GPAI", "high-risk AI", "Article 50", or "CE marking". Also trigger when reviewing system prompts, AI-generated content labeling, or any discussion about AI regulation in Europe.
+  EU AI Act compliance checker and documentation generator for any software product built with AI APIs (Claude, OpenAI, etc.) and vibe coding workflows. Use this skill whenever: building a new AI-powered feature or product, reviewing an existing codebase for AI Act compliance, generating compliance documentation (technical docs, transparency disclosures, risk assessments), adding a chatbot/AI assistant to any product, integrating AI APIs into user-facing applications, preparing for an AI Act audit, classifying AI system risk level, writing privacy policies or terms of service for AI products, deploying AI features to EU markets, or when the user mentions "AI Act", "compliance", "transparency", "GPAI", "high-risk AI", "Article 50", or "CE marking". Also trigger when reviewing system prompts, AI-generated content labeling, or any discussion about AI regulation in Europe.
 ---
 
 <!-- Last verified against EUR-Lex: 2026-03-28 -->
@@ -10,7 +10,7 @@ description: |
 
 > **Important**: This skill provides general informational guidance — not legal advice. It does not guarantee compliance with any regulation. See [LEGAL_NOTICE.md](LEGAL_NOTICE.md) for full terms. Always consult a qualified legal professional for your specific situation.
 
-This skill helps you build AI-powered SaaS products that comply with the EU AI Act (Regulation EU 2024/1689). It provides actionable guidance during development, generates compliance documentation, and helps you assess regulatory requirements before deployment.
+This skill helps you build AI-powered products that comply with the EU AI Act (Regulation EU 2024/1689). Whether you're building a web app, mobile app, desktop tool, API service, chatbot, or internal system — if it uses AI and touches the EU market, this skill has you covered.
 
 ## Quick Reference: Who Are You Under the AI Act?
 
@@ -19,10 +19,10 @@ Before anything else, determine your role. This drives all obligations.
 ### You are a PROVIDER if you:
 - Write system prompts that define how an AI model behaves in your product
 - Integrate AI models via API into user-facing applications
-- Build SaaS products that use AI to generate content, make decisions, or interact with users
+- Build products (web apps, mobile apps, APIs, tools) that use AI to generate content, make decisions, or interact with users
 - White-label or substantially modify an AI system (Art. 25 — see `references/value-chain-obligations.md`)
 
-**This means most SaaS builders using Claude API, OpenAI API, etc. are PROVIDERS — not deployers.** (See Recitals 25-27 for the reasoning behind this classification.)
+**This means most developers building products with Claude API, OpenAI API, etc. are PROVIDERS — not deployers.** (See Recitals 25-27 for the reasoning behind this classification.)
 
 ### You are a DEPLOYER if you:
 - Use an AI tool as-is without modification (e.g., using ChatGPT directly)
@@ -74,7 +74,7 @@ Does your system do any of these?
 - Perform emotion recognition or biometric categorization
 - Generate or manipulate deepfakes
 
-If YES → Limited risk with transparency obligations. This is the most common case for SaaS builders.
+If YES → Limited risk with transparency obligations. This is the most common case for developers building AI-powered products.
 If NO → Minimal risk, no specific obligations (but AI literacy still applies).
 
 For interactive risk classification, see `references/decision-trees/risk-classification.md`.
@@ -101,7 +101,7 @@ For interactive risk classification, see `references/decision-trees/risk-classif
 
 ### For LIMITED RISK Systems (Art. 50) — Deadline: Aug 2, 2026
 
-This is where most SaaS products with AI features land. Requirements:
+This is where most products with AI features land. Requirements:
 
 #### 1. Human Interaction Disclosure (Art. 50.1) (Recitals 132-133)
 If your AI system interacts with users, inform them they're talking to AI.
@@ -289,7 +289,7 @@ Run this checklist before every deployment of an AI-powered feature:
 
 For the full 219-point checklist by lifecycle phase, see `references/checklist.md`.
 
-## Common SaaS Scenarios
+## Common Scenarios
 
 ### Chatbot / Virtual Assistant
 - **Classification**: Limited risk (Art. 50)

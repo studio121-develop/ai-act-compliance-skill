@@ -4,7 +4,7 @@
 
 > **Disclaimer**: This document provides general guidance — not legal advice. See [LEGAL_NOTICE.md](/LEGAL_NOTICE.md) for full terms.
 
-If you are a B2B SaaS provider, your customers are almost certainly "deployers" under the
+If you are a B2B software provider, your customers are almost certainly "deployers" under the
 AI Act. That means they have their own legal obligations — and they will look to you to
 help them meet those obligations. This document covers everything deployers must do, with
 special attention to the Fundamental Rights Impact Assessment (FRIA), which is the
@@ -271,7 +271,7 @@ DPO Review (if applicable): _____________ Date: ________
 
 ## Practical Guidance: Your Customers Are Deployers
 
-If you are a B2B SaaS provider of a high-risk AI system, your customers need the
+If you are a B2B provider of a high-risk AI system, your customers need the
 following from you to meet their deployer obligations:
 
 ### What to provide in your product:

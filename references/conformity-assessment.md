@@ -8,7 +8,7 @@ The conformity assessment is where all your compliance work gets validated. It i
 formal process by which you (or a notified body) verify that your high-risk AI system
 meets all the requirements of the AI Act before you can legally place it on the EU market.
 
-For most SaaS products using AI APIs, you will self-assess under Annex VI. This document
+For most AI-powered products using AI APIs, you will self-assess under Annex VI. This document
 walks you through both paths, step by step.
 
 ---
@@ -336,13 +336,13 @@ hesitate to request reduced rates and cite this provision.
 
 ---
 
-## For Most SaaS Products: Your Annex VI Playbook
+## For Most AI-Powered Products: Your Annex VI Playbook
 
-If you are building SaaS products that use AI APIs (Claude, GPT, Gemini, etc.) and your
+If you are building products that use AI APIs (Claude, GPT, Gemini, etc.) and your
 system is classified as high-risk under Annex III, here is your concrete path:
 
 ### 1. Confirm your classification
-Re-read Annex III carefully. Many SaaS products are **not** high-risk. If yours is,
+Re-read Annex III carefully. Many AI-powered products are **not** high-risk. If yours is,
 identify the exact Annex III point.
 
 ### 2. Build your QMS (or extend your existing one)
@@ -382,7 +382,7 @@ incidents, and re-assess on significant changes.
 
 ## Key Takeaways
 
-1. **Self-assessment (Annex VI) is the path for most high-risk AI SaaS products.**
+1. **Self-assessment (Annex VI) is the path for most high-risk AI products.**
    Third-party assessment is only mandatory for biometric identification systems used by
    law enforcement.
 2. **The QMS is the foundation.** Without a documented quality management system that

@@ -4,7 +4,7 @@
 
 > **Disclaimer**: This document provides general guidance — not legal advice. See [LEGAL_NOTICE.md](/LEGAL_NOTICE.md) for full terms.
 
-This reference covers the full set of obligations for providers of high-risk AI systems under the EU AI Act. Most SaaS products built with AI APIs won't fall here, but review this if your system operates in any Annex III domain.
+This reference covers the full set of obligations for providers of high-risk AI systems under the EU AI Act. Most products built with AI APIs won't fall here, but review this if your system operates in any Annex III domain.
 
 ## When This Applies
 
@@ -111,7 +111,7 @@ An Annex III system is NOT high-risk if it:
 
 ## Conformity Assessment
 
-### Internal Control (Annex VI) — Most Common for SaaS
+### Internal Control (Annex VI) — Most Common Path
 - Provider self-assesses compliance
 - Verify QMS conforms to requirements
 - Examine technical documentation

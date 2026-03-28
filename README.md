@@ -10,7 +10,7 @@
 
 ## Why This Exists
 
-So you're building a SaaS with Claude API, OpenAI, or whatever model-of-the-month via API. Congrats — the EU AI Act now considers you a **Provider**. Not a deployer. A *provider*. Yes, the one with actual obligations.
+So you're building something with Claude API, OpenAI, or whatever model-of-the-month via API — a web app, a mobile app, an internal tool, a chatbot, an API service, whatever. Congrats — the EU AI Act now considers you a **Provider**. Not a deployer. A *provider*. Yes, the one with actual obligations.
 
 This means transparency requirements, documentation duties, and governance rules that kick in **August 2, 2026**. And if your AI does anything in the high-risk ballpark (hiring, credit scoring, education decisions), you've got a whole extra layer of fun waiting for you.
 
@@ -114,7 +114,7 @@ Classify the AI Act risk level of my project
 ```
 
 ```
-Generate AI Act compliance documentation for my SaaS
+Generate AI Act compliance documentation for my project
 ```
 
 ```
@@ -139,7 +139,7 @@ Update the AI Act compliance skill with the latest regulatory news
 
 ## Who It's For
 
-- **SaaS builders** integrating AI via API (Claude, OpenAI, Mistral, etc.)
+- **Developers** integrating AI via API (Claude, OpenAI, Mistral, etc.)
 - **Digital agencies** building AI products for clients
 - **Indie hackers** and **vibe coders** shipping AI features fast
 - **European SMEs** that need to comply without hiring a law firm

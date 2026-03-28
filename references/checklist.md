@@ -4,7 +4,7 @@
 
 # AI Act Compliance Checklist — Comprehensive Version
 
-Article-by-article checklist for SaaS providers integrating AI via API. Organized by phase: pre-development, development, pre-deployment, post-deployment.
+Article-by-article checklist for developers building AI-powered products. Organized by phase: pre-development, development, pre-deployment, post-deployment.
 
 ---
 
@@ -310,7 +310,7 @@ If your system is classified as high-risk, add these requirements (see also refe
 - [ ] Communication with authorities, competent bodies, deployers, and users
 
 ### HR.9 Conformity Assessment
-- [ ] Self-assessment (Annex VI) for most SaaS systems
+- [ ] Self-assessment (Annex VI) for most AI systems
 - [ ] Notified body assessment (Annex VII) for biometric identification systems
 - [ ] EU declaration of conformity issued
 - [ ] CE marking affixed
