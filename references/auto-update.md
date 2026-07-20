@@ -1,4 +1,4 @@
-<!-- Last verified against EUR-Lex: 2026-03-28 -->
+<!-- Verification status: see LAST_VERIFIED.md -->
 
 # Keeping This Skill Current
 
@@ -133,15 +133,30 @@ These are the events that should trigger an immediate update:
 
 ## Version Tracking
 
-Each file in this skill should include a comment or header indicating when it was last verified against the official regulatory text:
+Verification status is tracked in **ONE place**: the root file [`LAST_VERIFIED.md`](/LAST_VERIFIED.md). It holds the global last-verified date, the sources checked, what changed, and the open verification loops.
+
+Individual files do **not** carry their own date. Each points to the single source of truth with:
 
 ```markdown
-<!-- Last verified against EUR-Lex: 2026-03-28 -->
+<!-- Verification status: see LAST_VERIFIED.md -->
 ```
 
-When updating, refresh this date for every file you verify — even if no changes are needed. This tells users the content was checked, not just stale.
+(National context files use a visible `**Verification status:** see [LAST_VERIFIED.md](...)` line instead of a comment.)
+
+**When you update**: change the date and notes in `LAST_VERIFIED.md` only. Do **not** reintroduce per-file dates — that was the old model (v2.0) and it drifted out of sync. If a specific file was verified more or less deeply than the global pass, record that under "Verification depth" in `LAST_VERIFIED.md`.
 
 ## Changelog
+
+### v2.1 — July 2026
+- **Digital Omnibus on AI** (COM(2025) 836; adopted by Parliament 16 Jun 2026 and Council 29 Jun 2026 — final OJ reference/entry-into-force to be verified on EUR-Lex): postponed high-risk deadlines — Annex III standalone → 2 Dec 2027, Annex I regulated products → 2 Aug 2028, national sandboxes → 2 Aug 2027. Art. 50 transparency unchanged (2 Aug 2026); Art. 50(2) marking grace to 2 Dec 2026 for pre-existing systems
+- Added two new Art. 5 prohibitions (non-consensual intimate imagery / "nudifiers", CSAM), effective Dec 2026
+- **Transparency Code of Practice** (marking and labelling of AI-generated content) finalized 10 Jun 2026
+- Draft **Art. 6 high-risk classification guidelines** published 19 May 2026 (consultation open to 23 Jul 2026, not yet adopted)
+- Italy: **Legge n. 132/2025** in force since 10 Oct 2025 (AgID = notifying authority, ACN = market-surveillance authority)
+- GPAI Code of Practice signatories recorded (Anthropic, OpenAI, Google, Microsoft, Mistral; Meta declined)
+- Harmonized standards: still none cited in the Official Journal as of Jul 2026
+- Refreshed stale model-name examples
+- **Centralized verification tracking** into a single root file `LAST_VERIFIED.md`; per-file date headers replaced with `<!-- Verification status: see LAST_VERIFIED.md -->` pointers (one date to update instead of ~40)
 
 ### v2.0 — March 2026
 - Complete restructure: English-first, national contexts separated

@@ -1,8 +1,10 @@
-<!-- Last verified against EUR-Lex: 2026-03-28 -->
+<!-- Verification status: see LAST_VERIFIED.md -->
 
 # High-Risk AI System Requirements (Arts. 9-15, 16-17)
 
 > **Disclaimer**: This document provides general guidance — not legal advice. See [LEGAL_NOTICE.md](/LEGAL_NOTICE.md) for full terms.
+
+> **Deadlines (July 2026)**: The **Digital Omnibus on AI** (adopted June 2026 — verify the final Official Journal reference on EUR-Lex) postponed the high-risk application dates. Annex III stand-alone high-risk obligations now apply from **2 December 2027** (was 2 Aug 2026); high-risk AI in regulated products (Annex I) from **2 August 2028** (was 2 Aug 2027). The Commission also published **draft guidelines on the classification of high-risk AI systems (Art. 6) on 19 May 2026** (targeted consultation open until 23 July 2026, not yet formally adopted) — the first detailed official reading of the Art. 6(3) "significant risk" filter.
 
 This reference covers the full set of obligations for providers of high-risk AI systems under the EU AI Act. Most products built with AI APIs won't fall here, but review this if your system operates in any Annex III domain.
 

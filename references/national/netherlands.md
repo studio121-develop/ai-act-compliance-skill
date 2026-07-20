@@ -1,4 +1,4 @@
-<!-- Last verified against EUR-Lex: 2026-03-28 -->
+<!-- Verification status: see LAST_VERIFIED.md -->
 
 # Netherlands :nl: — AI Act National Context
 
@@ -6,7 +6,9 @@
 
 The Netherlands brings a characteristically Dutch approach to AI regulation: pragmatic, business-friendly, and occasionally ahead of the curve in ways that don't involve much fanfare. While France makes grand strategic announcements and Germany builds institutional architectures, the Dutch tend to just get on with it. The Algorithm Register — a public transparency tool for government AI use — is a perfect example: launched without much ceremony, it has become one of the most cited best practices in European AI governance.
 
-**Last Updated:** 2026-03-28
+**Verification status:** see [LAST_VERIFIED.md](../../LAST_VERIFIED.md)
+
+> **Note (July 2026)**: The **Digital Omnibus on AI** (adopted June 2026 — verify final OJ reference on EUR-Lex) postponed the high-risk deadlines to **2 Dec 2027** (Annex III standalone) and **2 Aug 2028** (Annex I regulated products). Art. 50 transparency still applies from 2 Aug 2026. **RDI (Rijksinspectie Digitale Infrastructuur / Authority for Digital Infrastructure)** is the designated national market-surveillance authority, with the **AP** retaining lead on personal-data aspects.
 
 ## Competent Authorities
 
@@ -135,6 +137,8 @@ Standard consumer protection provisions apply alongside AI Act transparency requ
 | Q2 2026 | Update Algemene Voorwaarden and Privacyverklaring for AI transparency |
 | Q2 2026 | If public-sector: register AI systems in the Algorithm Register |
 | H2 2026 | Monitor national implementation law (Uitvoeringswet AI-verordening) |
-| Aug 2026 | Full Art. 50 compliance deadline |
+| Aug 2026 | Full Art. 50 (transparency) compliance deadline — unchanged |
+| Dec 2027 | High-risk Annex III standalone obligations (postponed from Aug 2026 by the Omnibus) |
+| Aug 2028 | High-risk in regulated products (Annex I) |
 | Ongoing | Monitor AP and RDI communications for enforcement priorities |
 | Quarterly | Review compliance documentation and update AI system registry |

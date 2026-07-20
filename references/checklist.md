@@ -1,6 +1,7 @@
-<!-- Last verified against EUR-Lex: 2026-03-28 -->
+<!-- Verification status: see LAST_VERIFIED.md -->
 
 > **Disclaimer**: This checklist provides general guidance — not legal advice. See LEGAL_NOTICE.md for full terms.
+> **Note (July 2026)**: High-risk deadlines were postponed by the Digital Omnibus — Annex III standalone to **2 Dec 2027**, Annex I regulated products to **2 Aug 2028**. Art. 50 transparency still applies from **2 Aug 2026**. See the Timeline Matrix at the bottom.
 
 # AI Act Compliance Checklist — Comprehensive Version
 
@@ -47,6 +48,7 @@ Article-by-article checklist for developers building AI-powered products. Organi
 - [ ] Verify the system does NOT infer emotions in workplace or educational settings (except for medical/safety reasons)
 - [ ] Verify the system does NOT biometrically categorize people to deduce race, political opinions, sexual orientation, etc.
 - [ ] Verify the system does NOT use predictive AI to assess the risk of criminal offending based on profiling
+- [ ] Verify the system does NOT generate non-consensual intimate/sexual imagery ("nudifiers") or CSAM (new Art. 5 prohibition, effective Dec 2026)
 - [ ] Document the outcome of this check, including date and responsible person
 
 ### 1.2 High-Risk Check (Annex III)
@@ -325,12 +327,16 @@ If your system is classified as high-risk, add these requirements (see also refe
 
 | Requirement | Deadline | Status |
 |-------------|----------|--------|
-| Prohibited practices (Art. 5) | 2 Feb 2025 | IN FORCE |
+| Prohibited practices (Art. 5, original set) | 2 Feb 2025 | IN FORCE |
 | AI Literacy (Art. 4) | 2 Feb 2025 | IN FORCE |
 | GPAI model provider obligations | 2 Aug 2025 | IN FORCE |
 | Governance and penalty regime | 2 Aug 2025 | IN FORCE |
-| **Transparency Art. 50** | **2 Aug 2026** | **NEXT DEADLINE** |
-| **High-risk Annex III standalone** | **2 Aug 2026** | **NEXT DEADLINE** |
-| High-risk in regulated products | 2 Aug 2027 | Upcoming |
-| GPAI pre-existing models | 2 Aug 2027 | Upcoming |
+| **Transparency Art. 50** | **2 Aug 2026** | **NEXT DEADLINE** (unchanged) |
+| Art. 50(2) watermarking — pre-existing systems grace | 2 Dec 2026 | Upcoming |
+| New Art. 5 prohibitions (nudifiers, CSAM) | Dec 2026 | Upcoming |
+| National regulatory sandboxes | 2 Aug 2027 | Postponed (was 2 Aug 2026) |
+| **High-risk Annex III standalone** | **2 Dec 2027** | Postponed (was 2 Aug 2026) |
+| High-risk in regulated products (Annex I) | 2 Aug 2028 | Postponed (was 2 Aug 2027) |
 | Large-scale IT systems (Annex X) | 31 Dec 2030 | Future |
+
+> Postponements per the **Digital Omnibus on AI** (adopted June 2026; verify final OJ reference on EUR-Lex).

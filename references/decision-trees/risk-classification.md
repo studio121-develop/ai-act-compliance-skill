@@ -1,4 +1,4 @@
-<!-- Last verified against EUR-Lex: 2026-03-28 -->
+<!-- Verification status: see LAST_VERIFIED.md -->
 
 # Risk Classification Decision Tree
 
@@ -26,8 +26,9 @@ Does your AI system do ANY of the following?
 - [ ] Emotion recognition in workplace or education (unless medical/safety)
 - [ ] Biometric categorization to infer race, political opinions, religion, sexual orientation
 - [ ] Predictive policing based solely on profiling
+- [ ] Generate non-consensual intimate/sexual imagery ("nudifiers") or CSAM (new prohibition, effective Dec 2026)
 
-**YES to any** → PROHIBITED. Stop here. This practice is banned since Feb 2, 2025. You cannot deploy this system in the EU. Redesign or remove the feature.
+**YES to any** → PROHIBITED. Stop here. Most of these are banned since Feb 2, 2025 (the non-consensual intimate imagery / CSAM prohibition applies from December 2026). You cannot deploy this system in the EU. Redesign or remove the feature.
 
 **NO to all** → Continue to Q2.
 
@@ -114,7 +115,7 @@ Does your AI system do ANY of the following?
 Your AI system is classified as high-risk under the EU AI Act.
 
 **What this means:**
-- Full compliance with Arts. 9-17 required by Aug 2, 2026 (Annex III standalone) or Aug 2, 2027 (Annex I products)
+- Full compliance with Arts. 9-17 required by **2 Dec 2027** (Annex III standalone) or **2 Aug 2028** (Annex I products) — postponed by the Digital Omnibus (was Aug 2026 / Aug 2027)
 - Risk management system (Art. 9)
 - Data governance (Art. 10)
 - Technical documentation per Annex IV (Art. 11)
@@ -143,7 +144,7 @@ Your AI system has transparency obligations under Art. 50. This is the most comm
 - Art. 50(1): Inform users they're interacting with AI
 - Art. 50(2): Mark AI-generated content in machine-readable format
 - Art. 50(4): Special disclosure for deepfakes and public interest text
-- Deadline: Aug 2, 2026
+- Deadline: **Aug 2, 2026** (unchanged by the Omnibus). Watermarking of content from systems already on the market before that date: grace period to **Dec 2, 2026**.
 
 **Next steps:**
 1. Implement disclosure UI — see `references/transparency-implementation.md`

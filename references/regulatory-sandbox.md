@@ -1,4 +1,4 @@
-<!-- Last verified against EUR-Lex: 2026-03-28 -->
+<!-- Verification status: see LAST_VERIFIED.md -->
 
 # Regulatory Sandboxes (Arts. 57-62)
 
@@ -18,8 +18,10 @@ AI governance seriously.
 ## Art. 57: Establishment of Sandboxes by Member States
 
 Each Member State must ensure that its national competent authorities establish at least
-one AI regulatory sandbox at national level, operational by **2 August 2026**
-(Art. 57(1)). Sandboxes may also be established at regional or local level.
+one AI regulatory sandbox at national level, operational by **2 August 2027**
+(Art. 57(1)) — **postponed one year from 2 August 2026 by the Digital Omnibus** (adopted
+June 2026). The Omnibus also provides for an EU-level sandbox. Sandboxes may also be
+established at regional or local level.
 
 Key design principles (Art. 57(1)-(4)):
 

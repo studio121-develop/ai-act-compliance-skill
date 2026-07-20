@@ -12,7 +12,7 @@
 
 So you're building something with Claude API, OpenAI, or whatever model-of-the-month via API — a web app, a mobile app, an internal tool, a chatbot, an API service, whatever. Congrats — the EU AI Act now considers you a **Provider**. Not a deployer. A *provider*. Yes, the one with actual obligations.
 
-This means transparency requirements, documentation duties, and governance rules that kick in **August 2, 2026**. And if your AI does anything in the high-risk ballpark (hiring, credit scoring, education decisions), you've got a whole extra layer of fun waiting for you.
+This means transparency requirements (**Art. 50 — still applies from August 2, 2026**), documentation duties, and governance rules. And if your AI does anything in the high-risk ballpark (hiring, credit scoring, education decisions), you've got a whole extra layer of fun waiting for you — though the Digital Omnibus (adopted June 2026) pushed the high-risk deadlines back to **December 2, 2027** (Annex III) and **August 2, 2028** (regulated products).
 
 This skill embeds compliance directly into your development workflow: risk classification, operational checklists, documentation templates, ready-to-use code patterns, and regulatory context — so you can focus on building instead of reading 144 pages of EU regulation.
 
@@ -34,6 +34,7 @@ This skill embeds compliance directly into your development workflow: risk class
 | `references/provider-comparison.md` | Anthropic vs OpenAI vs Google vs Mistral from a compliance lens |
 | `references/standards-tracker.md` | CEN/CENELEC harmonized standards — what's coming and when |
 | `references/auto-update.md` | How to keep this skill current with regulatory changes |
+| `LAST_VERIFIED.md` | Single source of truth for the last verification date, sources, and open loops |
 
 ### National Contexts
 
@@ -174,8 +175,13 @@ Claude will search primary EU and national sources, update the relevant files, a
 |------|------|--------|
 | Feb 2025 | Prohibited practices + AI literacy | In force |
 | Aug 2025 | GPAI model obligations + governance | In force |
-| **Aug 2026** | **Art. 50 transparency + high-risk (Annex III standalone)** | Next deadline |
-| Aug 2027 | High-risk in regulated products (medical devices, machinery) | Coming |
+| **Aug 2026** | **Art. 50 transparency obligations** (unchanged by the Omnibus) | Next deadline |
+| Dec 2026 | Art. 50(2) watermarking grace ends (pre-existing systems) · new Art. 5 prohibitions (nudifiers, CSAM) | Coming |
+| Aug 2027 | National regulatory sandboxes operational | Coming |
+| **Dec 2027** | **High-risk (Annex III standalone)** — postponed from Aug 2026 | Coming |
+| Aug 2028 | High-risk in regulated products (medical devices, machinery) — postponed from Aug 2027 | Coming |
+
+> Dates reflect the **Digital Omnibus on AI** (adopted June 2026). Verify the final Official Journal reference on EUR-Lex.
 
 ## Contributing
 

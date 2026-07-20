@@ -1,8 +1,10 @@
-<!-- Last verified against EUR-Lex: 2026-03-28 -->
+<!-- Verification status: see LAST_VERIFIED.md -->
 
 # Transparency Implementation Guide (Art. 50)
 
 > **Disclaimer**: This document provides general guidance — not legal advice. See [LEGAL_NOTICE.md](/LEGAL_NOTICE.md) for full terms.
+
+> **Status (July 2026)**: Art. 50 transparency obligations still apply from **2 August 2026** (unchanged by the Digital Omnibus). For Art. 50(2) synthetic-content marking, there is a **grace period to 2 December 2026** for systems already on the market before 2 August 2026. The Commission published the final **Code of Practice on marking and labelling of AI-generated content on 10 June 2026** — a voluntary tool to demonstrate compliance with Art. 50(2) and (4): https://digital-strategy.ec.europa.eu/en/news/commission-publishes-code-practice-marking-and-labelling-ai-generated-content
 
 Technical guidance for implementing EU AI Act transparency obligations in SaaS products.
 

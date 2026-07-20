@@ -1,4 +1,4 @@
-<!-- Last verified against EUR-Lex: 2026-03-28 -->
+<!-- Verification status: see LAST_VERIFIED.md -->
 
 # Spain :es: — AI Act National Context
 
@@ -6,9 +6,16 @@
 
 Spain holds a genuinely notable distinction in the AI Act story: it was the first EU country to launch a regulatory sandbox for artificial intelligence, in November 2022 — before the AI Act was even finalised. While other Member States were still debating the regulation's text in Council working groups, Spain was already testing what compliance might look like in practice. This head start gives Spain a unique perspective and a body of practical experience that other countries are now scrambling to replicate.
 
-**Last Updated:** 2026-03-28
+**Verification status:** see [LAST_VERIFIED.md](../../LAST_VERIFIED.md)
+
+> **Note (July 2026)**: The **Digital Omnibus on AI** (adopted June 2026 — verify final OJ reference on EUR-Lex) postponed the high-risk deadlines to **2 Dec 2027** (Annex III standalone) and **2 Aug 2028** (Annex I regulated products). Art. 50 transparency still applies from 2 Aug 2026.
 
 ## Competent Authorities
+
+### AESIA — Agencia Española de Supervisión de la Inteligencia Artificial
+- **Role:** Spanish AI Supervisory Agency — the dedicated national market-surveillance authority for the AI Act (headquartered in A Coruña)
+- **AI Act relevance:** AESIA is Spain's designated AI Act supervisory authority, operating alongside the AEPD (which retains competence over personal-data aspects). AESIA has published a set of practical compliance guides to help organisations prepare. Spain was among the first Member States to stand up a purpose-built AI regulator.
+- **URL:** https://www.aesia.gob.es
 
 ### AEPD — Agencia Española de Protección de Datos
 - **Role:** Spanish data protection authority — and much more in the AI context
@@ -124,6 +131,8 @@ Spain's economy relies heavily on SMEs (over 99% of businesses), making accessib
 | Q2 2026 | Update Condiciones de Uso and Política de Privacidad |
 | Q2 2026 | Consider applying to AEPD sandbox for hands-on regulatory guidance |
 | H2 2026 | Monitor national implementation law and autonomous community programs |
-| Aug 2026 | Full Art. 50 compliance deadline |
-| Ongoing | Monitor AEPD publications and Carta de Derechos Digitales developments |
+| Aug 2026 | Full Art. 50 (transparency) compliance deadline — unchanged |
+| Dec 2027 | High-risk Annex III standalone obligations (postponed from Aug 2026 by the Omnibus) |
+| Aug 2028 | High-risk in regulated products (Annex I) |
+| Ongoing | Monitor AESIA compliance guides, AEPD publications and Carta de Derechos Digitales developments |
 | Quarterly | Review compliance documentation and update AI system registry |
