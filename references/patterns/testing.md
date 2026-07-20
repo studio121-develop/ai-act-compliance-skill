@@ -1,4 +1,4 @@
-<!-- Last verified against EUR-Lex: 2026-03-28 -->
+<!-- Verification status: see LAST_VERIFIED.md -->
 
 # Testing — Because "Trust Me, It's Compliant" Won't Work in an Audit
 

@@ -1,4 +1,4 @@
-<!-- Last verified against EUR-Lex: 2026-03-28 -->
+<!-- Verification status: see LAST_VERIFIED.md -->
 
 # Germany :de: — AI Act National Context
 
@@ -6,7 +6,9 @@
 
 Germany brings to AI regulation what it brings to everything else: thoroughness, federalism, and an impressive number of acronyms. Navigating the AI Act here means understanding not just one national authority but a constellation of federal agencies, Länder-level considerations, and a deeply embedded data protection culture that predates the GDPR by decades.
 
-**Last Updated:** 2026-03-28
+**Verification status:** see [LAST_VERIFIED.md](../../LAST_VERIFIED.md)
+
+> **Note (July 2026)**: The **Digital Omnibus on AI** (adopted June 2026 — verify final OJ reference on EUR-Lex) postponed the high-risk deadlines to **2 Dec 2027** (Annex III standalone) and **2 Aug 2028** (Annex I regulated products). Art. 50 transparency still applies from 2 Aug 2026. **BNetzA (Bundesnetzagentur / Federal Network Agency)** has been designated Germany's competent market-surveillance authority for the AI Act, and has begun opening formal inquiries.
 
 ## Competent Authorities
 
@@ -22,7 +24,7 @@ Germany brings to AI regulation what it brings to everything else: thoroughness,
 
 ### BNetzA — Bundesnetzagentur
 - **Role:** Federal Network Agency — telecommunications and digital regulation
-- **AI Act relevance:** Strong candidate for the national market surveillance authority under the AI Act. The BNetzA already has experience with digital market regulation and product safety oversight. Its designation as the primary AI Act enforcement body has been discussed in legislative proceedings, though final confirmation depends on the implementing law.
+- **AI Act relevance:** **Designated** national market surveillance authority under the AI Act (July 2026). The BNetzA already has experience with digital market regulation and product safety oversight, and has begun opening formal inquiries in its new AI Act role.
 - **URL:** https://www.bundesnetzagentur.de
 
 ### Länder Data Protection Authorities
@@ -113,6 +115,8 @@ Germany's Mittelstand — the backbone of the economy — faces particular chall
 | Q2 2026 | Implement Art. 50 transparency obligations (disclosure + content marking) |
 | Q2 2026 | Update AGB (Terms of Service) and Datenschutzerklärung for AI transparency |
 | H2 2026 | Monitor Durchführungsgesetz progress and adapt to national requirements |
-| Aug 2026 | Full Art. 50 compliance deadline |
+| Aug 2026 | Full Art. 50 (transparency) compliance deadline — unchanged |
+| Dec 2027 | High-risk Annex III standalone obligations (postponed from Aug 2026 by the Omnibus) |
+| Aug 2028 | High-risk in regulated products (Annex I) |
 | Ongoing | Monitor DSK resolutions and BNetzA communications |
 | Quarterly | Review compliance documentation and update AI system registry |

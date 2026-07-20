@@ -1,4 +1,4 @@
-<!-- Last verified against EUR-Lex: 2026-03-28 -->
+<!-- Verification status: see LAST_VERIFIED.md -->
 
 # France :fr: — AI Act National Context
 
@@ -6,7 +6,9 @@
 
 France approaches AI regulation the way it approaches most things: with strategic ambition, institutional sophistication, and the quiet conviction that whatever the rest of Europe does, France should probably lead it. The country has positioned itself as both a champion of AI innovation (Mistral AI, anyone?) and a pioneer in digital rights enforcement — a tension that makes its AI Act implementation particularly interesting to watch.
 
-**Last Updated:** 2026-03-28
+**Verification status:** see [LAST_VERIFIED.md](../../LAST_VERIFIED.md)
+
+> **Note (July 2026)**: The **Digital Omnibus on AI** (adopted June 2026 — verify final OJ reference on EUR-Lex) postponed the high-risk deadlines to **2 Dec 2027** (Annex III standalone) and **2 Aug 2028** (Annex I regulated products). Art. 50 transparency still applies from 2 Aug 2026. The **CNIL** operates a dedicated AI oversight division (Service de l'intelligence artificielle) and has begun opening formal inquiries in its AI Act role.
 
 ## Competent Authorities
 
@@ -114,6 +116,8 @@ France has several mechanisms supporting SME compliance:
 | Q2 2026 | Update CGV/CGU (Terms of Service) and politique de confidentialité |
 | Q2 2026 | Consider applying to CNIL bac à sable if eligible |
 | H2 2026 | Monitor national implementation law and adapt to French-specific requirements |
-| Aug 2026 | Full Art. 50 compliance deadline |
+| Aug 2026 | Full Art. 50 (transparency) compliance deadline — unchanged |
+| Dec 2027 | High-risk Annex III standalone obligations (postponed from Aug 2026 by the Omnibus) |
+| Aug 2028 | High-risk in regulated products (Annex I) |
 | Ongoing | Monitor CNIL publications and ARCEP digital regulation updates |
 | Quarterly | Review compliance documentation and update AI system registry |

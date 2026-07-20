@@ -1,4 +1,4 @@
-<!-- Last verified against EUR-Lex: 2026-03-28 -->
+<!-- Verification status: see LAST_VERIFIED.md -->
 
 # Harmonized Standards Tracker — What's Coming and When
 
@@ -29,10 +29,14 @@ Without harmonized standards, you must demonstrate compliance through other mean
 (common specifications, internal evidence, third-party audits). Doable, but more
 work and more uncertainty.
 
-**Current status**: The Commission has issued a standardization request to
-CEN/CENELEC. Standards are in development but most are not yet published.
-This is the awkward period where obligations apply but the easy path to
-demonstrating compliance doesn't fully exist yet.
+**Current status (July 2026)**: The Commission has issued a standardization request to
+CEN/CENELEC. **As of July 2026, no AI Act harmonized standards have yet been cited in the
+Official Journal**, so the presumption of conformity is not yet available. CEN/CENELEC
+adopted exceptional acceleration measures (Oct 2025); the first standards are expected to
+be available in 2026, followed by a Commission review before OJ citation. The original
+delivery deadline slipped — this delay is part of the rationale for the Digital Omnibus
+postponing the high-risk application dates. This is the awkward period where obligations
+are approaching but the easy path to demonstrating compliance doesn't fully exist yet.
 
 ---
 
@@ -242,7 +246,9 @@ compliance is effectively table stakes.
 | Quality management | 2026 Q1 | 2026 Q3 |
 
 **Caveat**: Standards development timelines are aspirational. Delays are the norm,
-not the exception. Plan accordingly.
+not the exception. Plan accordingly. **Update (July 2026)**: none of the standards above
+have yet been cited in the Official Journal; the earlier "2026 Q2–Q3" estimates have
+slipped, with availability now expected later in 2026 and OJ citation thereafter.
 
 ---
 

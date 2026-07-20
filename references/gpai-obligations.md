@@ -1,11 +1,13 @@
-<!-- Last verified against EUR-Lex: 2026-03-28 -->
+<!-- Verification status: see LAST_VERIFIED.md -->
 
 # GPAI Model Provider Obligations (Arts. 51-56)
 
 > **Disclaimer**: This document provides general guidance — not legal advice. See [LEGAL_NOTICE.md](/LEGAL_NOTICE.md) for full terms.
 
+> **GPAI Code of Practice (status July 2026)**: The final GPAI Code of Practice has been in place since **10 July 2025**; GPAI model obligations apply from **2 August 2025**, with the Commission's enforcement powers over GPAI activating **2 August 2026**. Signatories include **Anthropic, OpenAI, Google, Microsoft, and Mistral AI**, among others; **Meta declined to sign**. The Digital Omnibus (June 2026) made targeted GPAI simplifications but did not change the GPAI application date.
+
 General-Purpose AI (GPAI) models are the foundation models that power most modern AI
-applications — think Claude, GPT-4, Gemini, Llama, Mistral. The AI Act creates a
+applications — think Claude, GPT, Gemini, Llama, Mistral. The AI Act creates a
 separate regulatory tier for these models under Chapter V (Arts. 51-56), recognizing
 that their providers sit at the top of the value chain and have outsized influence on
 downstream safety.
@@ -44,8 +46,9 @@ Recital 110 explains that high-impact capabilities include the ability to perfor
 that pose significant risks to health, safety, fundamental rights, the environment,
 democracy, or the rule of law.
 
-As of the date of this document, models presumed to have systemic risk include GPT-4
-class and above. The threshold is designed to capture only the frontier.
+As of the date of this document, models presumed to have systemic risk are frontier-class
+models from the leading labs (e.g. the top-tier GPT, Claude, and Gemini models). The
+threshold is designed to capture only the frontier.
 
 ---
 

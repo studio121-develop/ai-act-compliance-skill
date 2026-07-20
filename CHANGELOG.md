@@ -5,6 +5,33 @@ All notable changes to this skill are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.1.0] - 2026-07-20
+
+### Changed — Regulatory Timeline (Digital Omnibus on AI)
+- Updated all high-risk deadlines per the **Digital Omnibus on AI** (COM(2025) 836; endorsed by the European Parliament 16 Jun 2026 and the Council 29 Jun 2026):
+  - Annex III stand-alone high-risk systems: **2 Aug 2026 → 2 December 2027**
+  - Annex I high-risk (AI in regulated products): **2 Aug 2027 → 2 August 2028**
+  - National regulatory sandboxes: **2 Aug 2026 → 2 August 2027**
+- **Article 50 transparency obligations unchanged** — still apply from 2 August 2026
+- Added the Art. 50(2) watermarking grace period (to 2 December 2026 for systems already on the market before 2 Aug 2026)
+- Refreshed stale model-name examples (e.g. "Claude Sonnet 4" → current models)
+
+### Changed — Maintenance
+- **Centralized verification tracking** into a single root file `LAST_VERIFIED.md`. Per-file `<!-- Last verified: DATE -->` headers replaced with dateless `<!-- Verification status: see LAST_VERIFIED.md -->` pointers — one date to update per pass instead of ~40, eliminating drift.
+- Removed committed build artifacts (`ai-act-compliance.zip`, `files.zip`)
+
+### Added — New Regulatory Developments
+- Two new **Art. 5 prohibited practices** (non-consensual intimate imagery / "nudifiers", CSAM), effective December 2026
+- **Transparency Code of Practice** (marking and labelling of AI-generated content), finalized 10 June 2026
+- Note on the draft **Art. 6 high-risk classification guidelines** (published 19 May 2026; consultation open to 23 July 2026; not yet adopted)
+- Italy: **Legge n. 132/2025** national AI law (in force 10 October 2025; AgID = notifying authority, ACN = market-surveillance authority)
+- GPAI Code of Practice signatories (Anthropic, OpenAI, Google, Microsoft, Mistral; Meta declined)
+- National market-surveillance authority designations: BNetzA (DE), CNIL AI division (FR), AESIA (ES), RDI (NL)
+
+### Note
+- At the time of this update the Digital Omnibus's final **Official Journal** regulation number and exact entry-into-force date were not yet confirmed — verify on [EUR-Lex](https://eur-lex.europa.eu) before relying on any date.
+- As of July 2026, **no AI Act harmonized standards** have yet been cited in the Official Journal (no presumption of conformity available; availability expected in 2026).
+
 ## [2.0.0] - 2026-03-28
 
 ### Added — Regulatory Coverage

@@ -1,4 +1,4 @@
-<!-- Last verified against EUR-Lex: 2026-03-28 -->
+<!-- Verification status: see LAST_VERIFIED.md -->
 
 # AI Provider Comparison — Compliance Edition
 
@@ -51,7 +51,9 @@ Ratings use: Yes / Partial / No / Unknown.
 | **Content provenance (C2PA)** | In development | Partial (DALL-E images) | Partial (some products) | Limited | Limited | Limited |
 | **Transparency reporting** | Published | Published | Published | Published | Limited | Published |
 
-**Last verified**: March 2026. Assume any cell could be outdated by the time you read this.
+**Last verified**: July 2026. Assume any cell could be outdated by the time you read this.
+
+> **GPAI Code of Practice signatories**: As of July 2026, signatories of the GPAI Code of Practice include **Anthropic, OpenAI, Google, Microsoft, and Mistral AI** (among others). **Meta declined to sign.** Signing the Code is one way a GPAI model provider can demonstrate compliance with its Chapter V obligations — a useful signal when evaluating upstream providers.
 
 ---
 
@@ -66,7 +68,7 @@ Ratings use: Yes / Partial / No / Unknown.
 - EU data residency available through direct API and cloud provider partnerships.
 - Evolving AI Act compliance documentation — check their Trust & Safety pages for updates.
 
-### OpenAI (GPT-4, GPT-4o, o-series)
+### OpenAI (GPT-5.x series, reasoning models)
 
 - Headquartered in the US. EU representative appointed.
 - API data not used for training by default since March 2023. Consumer products (ChatGPT) have different defaults.
@@ -204,7 +206,7 @@ provider will say "we support your compliance" rather than "we make you complian
 
 ## Disclaimer
 
-This comparison is based on publicly available information as of March 2026.
+This comparison is based on publicly available information as of July 2026.
 We are not affiliated with any provider listed. Provider policies, terms, and
 capabilities change frequently — often without prominent announcement.
 

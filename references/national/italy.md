@@ -1,6 +1,21 @@
+<!-- Verification status: see LAST_VERIFIED.md -->
+
 # Contesto Italiano per l'AI Act
 
 Riferimenti specifici per l'implementazione dell'AI Act in Italia, incluse le autorità competenti, le normative collegate e le considerazioni pratiche per le PMI italiane.
+
+## Legge nazionale sull'IA — Legge 23 settembre 2025, n. 132
+
+L'Italia è stato tra i primi Stati membri ad approvare una legge nazionale di accompagnamento all'AI Act.
+
+- **Legge n. 132/2025** — "Disposizioni e deleghe al Governo in materia di intelligenza artificiale"
+- Pubblicata in **GU Serie Generale n. 223 del 25 settembre 2025**; **in vigore dal 10 ottobre 2025** (vacatio di 15 giorni)
+- Testo: https://www.gazzettaufficiale.it/eli/id/2025/09/25/25G00143/sg
+- Contenuti chiave: principi nazionali sull'uso dell'IA, deleghe al Governo per l'adeguamento all'AI Act, disposizioni penali (incluse aggravanti per reati commessi mediante sistemi di IA), sanzioni amministrative, e designazione delle autorità nazionali
+- **Autorità nazionali designate**: **AgID** (autorità di notifica) e **ACN** (autorità di sorveglianza del mercato), fatte salve le competenze del **Garante** in materia di dati personali
+- Sanzioni pecuniarie previste dalla legge nazionale fino a circa **774.685 €**, oltre a misure interdittive ex D.Lgs. 231/2001 in taluni casi
+
+> **Nota (luglio 2026)**: A livello UE il **Digital Omnibus on AI** (adottato giugno 2026) ha posticipato gli obblighi high-risk — Annex III standalone al **2 dicembre 2027**, prodotti regolati (Annex I) al **2 agosto 2028**. Gli obblighi di trasparenza dell'Art. 50 restano al **2 agosto 2026**. Verificare il riferimento finale in GUUE su EUR-Lex.
 
 ## Autorità Competenti in Italia
 
@@ -19,10 +34,11 @@ Riferimenti specifici per l'implementazione dell'AI Act in Italia, incluse le au
 - Standard di sicurezza per sistemi AI ad alto rischio
 - Sito: https://www.acn.gov.it
 
-### Autorità Nazionale di Vigilanza del Mercato
-- L'Italia deve designare le autorità nazionali competenti per l'AI Act
-- Include almeno un'autorità di sorveglianza del mercato e un'autorità di notifica
-- Monitorare le comunicazioni ufficiali per aggiornamenti sulla designazione
+### Autorità Nazionali Competenti (designate dalla Legge 132/2025)
+- **ACN** — Agenzia per la Cybersicurezza Nazionale: autorità di sorveglianza del mercato
+- **AgID** — Agenzia per l'Italia Digitale: autorità di notifica
+- **Garante Privacy**: mantiene le competenze sui profili di protezione dei dati personali
+- Per gli aggiornamenti sulle modalità operative, monitorare le comunicazioni ufficiali di AgID e ACN
 
 ## Normative Collegate
 
@@ -159,8 +175,11 @@ Se offri servizi di compliance AI Act come consulenza:
 |--------|--------|
 | Subito | Inventario sistemi AI + classificazione rischio |
 | Subito | Documentare la formazione AI literacy del team |
-| Entro Q2 2026 | Implementare disclosure Art. 50 in tutti i prodotti |
-| Entro Q2 2026 | Aggiornare privacy policy e ToS |
-| Entro Q2 2026 | Implementare marcatura contenuti AI in formato machine-readable |
-| Ago 2026 | Compliance completa Art. 50 |
+| Entro H1 2026 | Implementare disclosure Art. 50 in tutti i prodotti |
+| Entro H1 2026 | Aggiornare privacy policy e ToS |
+| Entro H1 2026 | Implementare marcatura contenuti AI in formato machine-readable |
+| **2 ago 2026** | Compliance completa Art. 50 (trasparenza) — invariata |
+| 2 dic 2026 | Fine grace period marcatura Art. 50(2) per sistemi già sul mercato |
+| **2 dic 2027** | High-risk Annex III standalone (posticipato dall'Omnibus) |
+| 2 ago 2028 | High-risk in prodotti regolati (Annex I) |
 | Trimestrale | Review documentazione e compliance |

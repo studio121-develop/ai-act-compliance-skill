@@ -4,11 +4,13 @@ description: |
   EU AI Act compliance checker and documentation generator for any software product built with AI APIs (Claude, OpenAI, etc.) and vibe coding workflows. Use this skill whenever: building a new AI-powered feature or product, reviewing an existing codebase for AI Act compliance, generating compliance documentation (technical docs, transparency disclosures, risk assessments), adding a chatbot/AI assistant to any product, integrating AI APIs into user-facing applications, preparing for an AI Act audit, classifying AI system risk level, writing privacy policies or terms of service for AI products, deploying AI features to EU markets, or when the user mentions "AI Act", "compliance", "transparency", "GPAI", "high-risk AI", "Article 50", or "CE marking". Also trigger when reviewing system prompts, AI-generated content labeling, or any discussion about AI regulation in Europe.
 ---
 
-<!-- Last verified against EUR-Lex: 2026-03-28 -->
+<!-- Verification status: see LAST_VERIFIED.md -->
 
 # EU AI Act Compliance Skill
 
 > **Important**: This skill provides general informational guidance — not legal advice. It does not guarantee compliance with any regulation. See [LEGAL_NOTICE.md](LEGAL_NOTICE.md) for full terms. Always consult a qualified legal professional for your specific situation.
+
+> **⚠️ Regulatory status (July 2026) — deadlines have moved.** The **Digital Omnibus on AI** (Commission proposal COM(2025) 836, procedure 2025/0359(COD)) amending Regulation (EU) 2024/1689 received final approval from the European Parliament (16 June 2026) and the Council (29 June 2026). It **postpones the high-risk obligations**: Annex III stand-alone high-risk systems now apply from **2 December 2027** (was 2 Aug 2026), and Annex I regulated-product systems from **2 August 2028** (was 2 Aug 2027). **Article 50 transparency obligations are NOT postponed — they still apply from 2 August 2026.** At the time of this verification the final Official Journal regulation number and exact entry-into-force date were not yet confirmed — **verify them on [EUR-Lex](https://eur-lex.europa.eu) before relying on any date below.**
 
 This skill helps you build AI-powered products that comply with the EU AI Act (Regulation EU 2024/1689). Whether you're building a web app, mobile app, desktop tool, API service, chatbot, or internal system — if it uses AI and touches the EU market, this skill has you covered.
 
@@ -48,8 +50,9 @@ Verify your system does NOT:
 - Do untargeted scraping of facial images for facial recognition databases
 - Infer emotions in workplace or education unless for medical/safety reasons
 - Use predictive policing based solely on profiling (Recital 42)
+- Generate non-consensual intimate or sexual imagery ("nudifiers") or child sexual abuse material (CSAM) — **new prohibition added by the Digital Omnibus, effective December 2026**
 
-If any apply → STOP. The practice is banned since Feb 2, 2025.
+If any apply → STOP. Most of these practices are banned since Feb 2, 2025; the non-consensual intimate imagery / CSAM prohibition applies from December 2026.
 
 ### Step 2: Check High-Risk (Annex III)
 Does your AI system operate in any of these domains?
@@ -135,10 +138,15 @@ For comprehensive implementation patterns, see `references/transparency-implemen
 #### 2. Synthetic Content Marking (Art. 50.2) (Recitals 133-134)
 If your system generates text, images, audio, or video:
 
+> **Grace period**: For systems already placed on the market **before 2 August 2026**, the Art. 50(2) watermarking/marking obligation applies from **2 December 2026** (Digital Omnibus). Systems placed on the market on or after 2 August 2026 must comply from placement.
+>
+> **Code of Practice**: The Commission published the final **Code of Practice on marking and labelling of AI-generated content** on **10 June 2026**. It is a voluntary tool to demonstrate compliance with Art. 50(2) and (4). See `references/transparency-implementation.md`.
+
 **Implementation checklist:**
 - [ ] Mark outputs as AI-generated in machine-readable format
 - [ ] Implement detection mechanisms for downstream systems
 - [ ] Use metadata tagging (C2PA, IPTC, or similar standards — see `references/patterns/c2pa.md`)
+- [ ] Consider aligning with the Code of Practice on marking and labelling (June 2026)
 - [ ] Exception: "assistive function" that doesn't substantially alter user input (spell-check, grammar correction)
 
 **Code pattern:**
@@ -169,6 +177,10 @@ If your system generates text published to inform the public:
 - [ ] Exception: if human editorial oversight reviewed and takes responsibility
 
 ### For HIGH-RISK Systems
+
+> **Deadline moved**: Annex III stand-alone high-risk obligations now apply from **2 December 2027** (Annex I regulated products: **2 August 2028**) — postponed by the Digital Omnibus. Use the extra time; don't treat it as a reason to defer design decisions.
+>
+> **New guidance**: The Commission published **draft guidelines on the classification of high-risk AI systems (Art. 6)** on **19 May 2026** (targeted consultation open until 23 July 2026, not yet formally adopted). They are the first detailed official reading of the Art. 6(3) "significant risk" filter — watch for the final version before finalizing a borderline classification.
 
 Read `references/high-risk-requirements.md` for full Arts. 9-17 obligations.
 For Annex IV technical documentation, use `references/annex-iv-template.md`.
@@ -205,7 +217,7 @@ Create a file called `AI_ACT_COMPLIANCE.md` in your project root:
 
 ### 3. AI Model Information
 - **Model provider**: [e.g., Anthropic]
-- **Model name**: [e.g., Claude Sonnet 4]
+- **Model name**: [e.g., Claude Sonnet 5, Claude Opus 4.x]
 - **Integration method**: [API / SDK / embedded]
 - **System prompt**: [Summary of behavior instructions — NOT the full prompt for IP reasons]
 - **Data processed**: [What user data is sent to the model]
@@ -390,10 +402,13 @@ SMEs and startups: the applicable fine is the lower of the two thresholds (fixed
 
 | Date | What |
 |------|------|
-| Feb 2, 2025 | Prohibited practices + AI literacy — IN FORCE |
-| Aug 2, 2025 | GPAI model obligations — IN FORCE |
-| **Aug 2, 2026** | **Full application: Art. 50 transparency + high-risk (Annex III standalone)** |
-| Aug 2, 2027 | High-risk in regulated products (medical devices, machinery, etc.) |
+| Feb 2, 2025 | Prohibited practices (Art. 5) + AI literacy (Art. 4) — IN FORCE |
+| Aug 2, 2025 | GPAI model obligations + governance/penalty regime — IN FORCE |
+| **Aug 2, 2026** | **Art. 50 transparency obligations apply** (unchanged by the Omnibus) |
+| Dec 2, 2026 | Art. 50(2) watermarking grace period ends for systems already on the market before Aug 2, 2026 · new Art. 5 prohibitions (non-consensual intimate imagery, CSAM) apply |
+| Aug 2, 2027 | National regulatory sandboxes operational (postponed from Aug 2, 2026) |
+| **Dec 2, 2027** | **High-risk (Annex III standalone) — full application** (postponed from Aug 2, 2026 by the Digital Omnibus) |
+| Aug 2, 2028 | High-risk in regulated products (Annex I — medical devices, machinery, toys, etc.; postponed from Aug 2, 2027) |
 
 ## Available Commands
 
